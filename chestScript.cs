@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class chest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Rigidbody chestLid;
+    public BoxCollider mainBoxCollider;
+    public bool closed = true;
+    public Vector3 lidOpenForce;
+
+    public void Update()
     {
-        
+        if (Input.GetButtonDown("X"))
+        {
+            openChest();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void openChest()
     {
-        
+        if (closed)
+        {
+            chestLid.AddForce(lidOpenForce);
+            closed = false;
+            print("opening chest");
+        }
+
+        else
+        {
+            print("Chest is already open, fuck off");
+        }
     }
 }

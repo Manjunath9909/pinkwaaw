@@ -1,18 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class inventoryScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Serializable]
+    public struct itemsStored
     {
-        
+        public string itemID;
+        public int count;
     }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField]
+    private List<itemsStored> items1 = new List<itemsStored>();
+
+    public void addItem()
     {
-        
+
+    }
+
+    public void removeItem()
+    {
+
     }
 }
