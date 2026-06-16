@@ -7,7 +7,7 @@ class items
         {001, "Apple"},
         {002, "Orange"},
         {003, "Sword of Fire"},
-        {004, "Sowrd of Ice"},
+        {004, "Sword of Ice"},
         {005, "Mace of Fire"},
         {006, "Mace of Ice"},
         {007, "Cannon of Silence"},

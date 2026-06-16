@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class puppeteer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Canvas inventoryCanvas;
+    public Canvas pauseCanvas;
+    public Canvas playerStatusCanvas;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

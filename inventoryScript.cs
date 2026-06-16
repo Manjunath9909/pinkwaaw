@@ -14,7 +14,7 @@ public class inventoryScript : MonoBehaviour
     }
 
     [SerializeField]
-    private List<itemsStored> items1 = new List<itemsStored>();
+    private List<itemsStored> Items = new List<itemsStored>();
 
     public void addItem()
     {
@@ -22,6 +22,16 @@ public class inventoryScript : MonoBehaviour
     }
 
     public void removeItem()
+    {
+
+    }
+
+    public void writeToMemory()
+    {
+
+    }
+
+    public void readFromMemory()
     {
 
     }

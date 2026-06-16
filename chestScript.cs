@@ -9,14 +9,6 @@ public class chest : MonoBehaviour
     public bool closed = true;
     public Vector3 lidOpenForce;
 
-    public void Update()
-    {
-        if (Input.GetButtonDown("X"))
-        {
-            openChest();
-        }
-    }
-
     public void openChest()
     {
         if (closed)

@@ -28,6 +28,6 @@ public class itemScript : MonoBehaviour
 
     public void consume()
     {
-        //put code here to replinishes health and wellbeing
+        //put code here to replinishes health and wellbeing of the player
     }
 }
