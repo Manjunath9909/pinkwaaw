@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//meant to be attached to a gameobject with an itemScript component 
+//will hold addtional info regarding an item like weapon stats
+
 public class itemStats : MonoBehaviour
 {
     public float damageOutput = 10.0f;
